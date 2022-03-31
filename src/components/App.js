@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Question from "./Question";
 import quiz from "../data/quiz";
-
 function App() {
   const [questions, setQuestions] = useState(quiz);
   const [currentQuestionId, setCurrentQuestion] = useState(1);
